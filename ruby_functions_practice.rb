@@ -68,9 +68,6 @@ def volume_of_sphere( radius )
   return val.round(2)
 end
 
-
-
-
 def fahrenheit_to_celsius( num )
 #(°F  -  32)  x  5/9 = °C
   val  = (num - 32) * 5/9

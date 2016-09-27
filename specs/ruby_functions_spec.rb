@@ -96,6 +96,4 @@ class Functions_Practice < MiniTest::Test
     convert_result = miles_to_kilometres( 100 )
     assert_equal( 160, convert_result )  
   end
-
-
 end
