@@ -71,14 +71,19 @@ class Functions_Practice < MiniTest::Test
   #Given the length of a side of a cube calculate the volume 
   def test_volume_of_cube()
     add_result = volume_of_cube( 2 )
-    assert_equal( 4, add_result )  
+    assert_equal( 8, add_result )  
   end
 
   #Given the radius of a sphere calculate the volume
   #Try using Ruby's PI value!
+  def test_circumpherence_of_sphere()
+    sphere_result = circumpherence_of_sphere( 1 )
+    assert_equal( 6.28, sphere_result )  
+  end
+
   def test_volume_of_sphere()
     sphere_result = volume_of_sphere( 1 )
-    assert_equal( 6.28, sphere_result )  
+    assert_equal( 4.19, sphere_result )  
   end
 
   #You can add your own converters

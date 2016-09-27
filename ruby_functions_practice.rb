@@ -1,4 +1,4 @@
-
+# Ruby functions practice
 
 def return_10()
   return 10
@@ -55,13 +55,21 @@ def number_to_short_month_name( month )
 end
 
 def volume_of_cube( num )
-  return num * num
+  return num * num * num
 end
 
-def volume_of_sphere( radius )
+def circumpherence_of_sphere( radius )
   val = 2 * Math::PI * radius
   return val.round(2)
 end
+
+def volume_of_sphere( radius )
+  val = ( 4.0 / 3.0 ) * Math::PI * (radius*radius*radius)
+  return val.round(2)
+end
+
+
+
 
 def fahrenheit_to_celsius( num )
 #(°F  -  32)  x  5/9 = °C
@@ -71,8 +79,7 @@ end
 
 def miles_to_kilometres( num )
 # km = m * 1.6
-  return num * 1.6
-  
+  return num * 1.6  
 end
 
 
