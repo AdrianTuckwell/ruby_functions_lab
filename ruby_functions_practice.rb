@@ -74,6 +74,7 @@ def fahrenheit_to_celsius( num )
   return val.round(2)
 end
 
+
 def miles_to_kilometres( num )
 # km = m * 1.6
   return num * 1.6  
