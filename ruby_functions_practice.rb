@@ -70,7 +70,7 @@ end
 
 def fahrenheit_to_celsius( num )
 #(°F  -  32)  x  5/9 = °C
-  val  = (num - 32) * 5/9
+  val  = (num - 32) * 5.0/9.0
   return val.round(2)
 end
 
